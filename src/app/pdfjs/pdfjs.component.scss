@@ -1,0 +1,35 @@
+.book {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+/*
+.book .book-sheat {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  transition: all 0.8s ease-in-out;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+}
+.book .book-sheat.turn {
+  transform: rotateY(-180deg);
+}
+
+.book .book-sheat .book-page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+}
+.book .book-sheat .book-page + .book-page {
+  transform: rotateY(180deg);
+  z-index: 0;
+}
+*/

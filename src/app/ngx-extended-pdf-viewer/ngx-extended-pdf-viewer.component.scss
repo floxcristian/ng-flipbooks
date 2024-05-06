@@ -1,0 +1,14 @@
+.pdfc {
+  #viewerContainer {
+    scroll-snap-points-x: repeat(100vw);
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    scroll-behavior: smooth;
+    scrollbar-color: transparent transparent;
+    -webkit-overflow-scrolling: touch;
+
+    .page {
+      scroll-snap-align: start;
+    }
+  }
+}

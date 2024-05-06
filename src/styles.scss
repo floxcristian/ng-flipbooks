@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+
+@import "assets/css/app/layout.scss";
+
+/*
+/deep/ button#print,
+/deep/ button#print * {
+  display: block !important;
+}
+/*
+/deep/ button#download,
+/deep/ button#download * {
+  display: block !important;
+}
+
+/deep/ button#toolbarViewMiddle {
+  display: block !important;
+}*/
+/*
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 30px;
+  height: 100vh;
+}*/
+
+html,
+body {
+  background-color: #efefef;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/*
+:host ::ng-deep .p-overlaypanel,
+:host ::ng-deep .p-overlaypanel-flipped,
+.p-overlaypanel,
+.p-overlaypanel-flipped {
+  background-color: yellow !important;
+}*/
+:host ::ng-deep .p-overlaypanel-flipped {
+  margin-top: -13px;
+}
+
+.p-overlaypanel-content {
+  padding: 0 !important;
+}
+
+/*****************************
+* Menú
+*****************************/
+.p-menu {
+  padding: 0 !important;
+}
+
+.p-menuitem {
+  border-top: 1px solid #e4e4e4;
+}
+
+.p-menuitem-link {
+  font-size: 0.8rem;
+}
+
+.p-button.p-button-secondary:enabled:focus {
+  box-shadow: none !important;
+}
+
+.p-button.p-button-secondary:not(:disabled):focus {
+  box-shadow: none !important;
+}
+
+/********************************************
+* Mobile tap effect.
+********************************************/
+* {
+  -webkit-tap-highlight-color: transparent;
+}
