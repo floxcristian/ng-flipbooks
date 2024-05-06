@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { PdfViewerComponent } from './ngx-extended-pdf-viewer/ngx-extended-pdf-viewer.component';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { StyleClassModule } from 'primeng/styleclass';
@@ -15,7 +14,6 @@ import { SidebarModule } from 'primeng/sidebar';
     SidebarModule,
     CommonModule,
     RouterOutlet,
-    PdfViewerComponent,
     ButtonModule,
     RippleModule,
     StyleClassModule,
